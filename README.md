@@ -7,7 +7,7 @@
 
 See Gao's solutions [here](https://github.com/Artificial-Intelligence-for-NLP-and-CV/jupyters_and_slides/tree/master/2019-spring/programming-ability-testing).
 
-## Course Schedule
+## Table of Contents
 ### Week 0 Math Basics
 * Representation
 * Calulus
@@ -16,6 +16,8 @@ See Gao's solutions [here](https://github.com/Artificial-Intelligence-for-NLP-an
 * Probability
 * Graph
 * Dynamic Programming (动态规划)
+
+
 ### Week 1 Basics
 * 人工智能主要内容介绍
 + 人工智能主要解决的问题
@@ -31,4 +33,8 @@ See Gao's solutions [here](https://github.com/Artificial-Intelligence-for-NLP-an
     + 基于数学分析 -- (*第二课*)
     + 基于概率  -- (*第二课*)
     + 基于机器学习 -- (*第二课*)
-* Assignment 01 -- 基于规则实现简单中文对话
+
+- [x] Assignment 01 -- 基于规则实现简单中文对话 (see assignment [here](https://github.com/xinweixu1/nlp-AI-course/blob/master/L01-Intro-Search-Rules/assignment-01.ipynb))
+
+### Week 2
+[TBD]
