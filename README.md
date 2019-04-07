@@ -28,13 +28,17 @@ See Gao's solutions [here](https://github.com/Artificial-Intelligence-for-NLP-an
     + unstructured data
     + diversity & hetereogeneity
 + 人工智能解决问题的范式--Part-1
-    + 基于搜索(Breadth-First & Depth-First; Map application & Decision Tree)
+    + 基于搜索 (BFS & DFS; Map application & Decision Tree)
     + 基于规则，从规则驱动到数据驱动 (From Rules to Data-Driven)
     + 基于数学分析 -- (*第二课*)
     + 基于概率  -- (*第二课*)
-    + 基于机器学习 -- (*第二课*)
+    + 基于机器学习 -- (*第三课*)
 
-- [x] Assignment 01 -- 基于规则实现简单中文对话 (see assignment [here](https://github.com/xinweixu1/nlp-AI-course/blob/master/L01-Intro-Search-Rules/assignment-01.ipynb))
+- [x] [Assignment 01]((https://github.com/xinweixu1/nlp-AI-course/master/L01-Intro-Search-Rules/assignment-01.ipynb)) -- 基于规则实现简单中文对话
 
 ### Week 2
-[TBD]
++ Language Models
+   + from rule-based to probability-based
+   + one-gram and two-gram models
+   + using regular expressions
+- [ ] Assignment 02 -- implement language models using the Wikipedia corpus
