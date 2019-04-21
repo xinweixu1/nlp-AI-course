@@ -41,4 +41,4 @@ See Gao's solutions [here](https://github.com/Artificial-Intelligence-for-NLP-an
    + from rule-based to probability-based
    + one-gram and two-gram models
    + using regular expressions
-- [ ] Assignment 02 -- implement language models using the Wikipedia corpus
+- [x] Assignment 02 -- implement language models using the Wikipedia corpus
