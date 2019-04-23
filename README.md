@@ -41,4 +41,18 @@ See Gao's solutions [here](https://github.com/Artificial-Intelligence-for-NLP-an
    + from rule-based to probability-based
    + one-gram and two-gram models
    + using regular expressions
-- [x] Assignment 02 -- implement language models using the Wikipedia corpus
+- [x] [Assignment 02]((https://github.com/xinweixu1/nlp-AI-course/master/L02-LanguageModels/assignment-02.ipynb)) -- implement language models using the Wikipedia corpus
+
+### Week 3
++ Simple Machine Learning Models
++ Heuristic Search
+   + from BFS, DFS to best-first search
+- [ ] Assignment 03 -- implement a search agent using the BEIJING Subway data
+
+### Week 4
++ Dyanmic Programming
++ Basic NLP methods
+   + word embedding
+   
+
+
