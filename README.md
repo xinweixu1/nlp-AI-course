@@ -47,12 +47,12 @@ See Gao's solutions [here](https://github.com/Artificial-Intelligence-for-NLP-an
 + Simple Machine Learning Models
 + Heuristic Search
    + from BFS, DFS to best-first search
-- [ ] Assignment 03 -- implement a search agent using the BEIJING Subway data
+- [x] [Assignment 03](https://github.com/xinweixu1/nlp-AI-course/master/L03-MachineLearning-HeuristicSearch/assignment-03.ipynb) -- implement a search agent using the Beijing Subway data
+
 
 ### Week 4
 + Dyanmic Programming
+   + three steps for solving a DP problem: 1)分析子问题重复性; 2) 将子问题的解存储起来；3）解析和构建solution
 + Basic NLP methods
-   + word embedding
-   
-
-
+   + edit distance
+- [x] [Assignment 04](https://github.com/xinweixu1/nlp-AI-course/master/L04-DynamicProgramming-EditDistance/assignment-04.ipynb) -- finish the edit distance solution parsing
