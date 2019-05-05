@@ -52,7 +52,28 @@ See Gao's solutions [here](https://github.com/Artificial-Intelligence-for-NLP-an
 
 ### Week 4
 + Dyanmic Programming
-   + three steps for solving a DP problem: 1)分析子问题重复性; 2) 将子问题的解存储起来；3）解析和构建solution
+   + three steps for solving a DP problem:
+        - 1) 分析子问题重复性;
+        - 2) 将子问题的解存储起来；
+        - 3) 解析和构建solution
 + Basic NLP methods
    + edit distance
 - [x] [Assignment 04](https://github.com/xinweixu1/nlp-AI-course/master/L04-DynamicProgramming-EditDistance/assignment-04.ipynb) -- finish the edit distance solution parsing
+
+### Week 5
++ Word Embedding
+    - from edit distance to word embedding (why?)
+    - Word2Vec
++ Name Entity Recogntion & Dependency Parsing
+
+### Week 6
++ Keywords Extraction
+    - from word2vec to vectorizing chunks of text
+    - TF-IDF (Term Frequency-Inverse Document Frequency)
+    - Word cloud
+    - Scikit-learning & simple classification model
+      + cosine similarity
++ Search Engine
+   - boolean search
+   - from the naive search (TF-IDF) to page rank
++ [ ] Group project 01 - keywords extraction & search using the news corpus
