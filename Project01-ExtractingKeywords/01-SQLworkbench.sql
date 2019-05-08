@@ -10,3 +10,9 @@ GROUP BY table_schema;
 /* Check the size of the database.*/
 
 SELECT * FROM sqlResult_1558435;
+/*Select all columns*/
+
+
+SELECT id,author,source, content,title, url  FROM sqlResult_1558435;
+
+
