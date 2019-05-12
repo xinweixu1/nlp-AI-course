@@ -1,0 +1,990 @@
+Document: ID=test_chinese_news.txt (9 sentences, 238 tokens)
+
+Sentence #1 (34 tokens):
+美国贸易代表莱特希泽星期五表示，他已收到总统特朗普的指示，对其余尚未加征关税的所有中国商品加征关税，星期一将公布细节。
+
+Tokens:
+[Text=美国 CharacterOffsetBegin=0 CharacterOffsetEnd=2 PartOfSpeech=NR Lemma=美国 NamedEntityTag=ORGANIZATION]
+[Text=贸易 CharacterOffsetBegin=2 CharacterOffsetEnd=4 PartOfSpeech=NN Lemma=贸易 NamedEntityTag=ORGANIZATION]
+[Text=代表 CharacterOffsetBegin=4 CharacterOffsetEnd=6 PartOfSpeech=NN Lemma=代表 NamedEntityTag=ORGANIZATION]
+[Text=莱特 CharacterOffsetBegin=6 CharacterOffsetEnd=8 PartOfSpeech=NR Lemma=莱特 NamedEntityTag=ORGANIZATION]
+[Text=希泽 CharacterOffsetBegin=8 CharacterOffsetEnd=10 PartOfSpeech=VV Lemma=希泽 NamedEntityTag=ORGANIZATION]
+[Text=星期五 CharacterOffsetBegin=10 CharacterOffsetEnd=13 PartOfSpeech=NT Lemma=星期五 NamedEntityTag=DATE]
+[Text=表示 CharacterOffsetBegin=13 CharacterOffsetEnd=15 PartOfSpeech=VV Lemma=表示 NamedEntityTag=O]
+[Text=， CharacterOffsetBegin=15 CharacterOffsetEnd=16 PartOfSpeech=PU Lemma=， NamedEntityTag=O]
+[Text=他 CharacterOffsetBegin=16 CharacterOffsetEnd=17 PartOfSpeech=PN Lemma=他 NamedEntityTag=O]
+[Text=已 CharacterOffsetBegin=17 CharacterOffsetEnd=18 PartOfSpeech=AD Lemma=已 NamedEntityTag=O]
+[Text=收到 CharacterOffsetBegin=18 CharacterOffsetEnd=20 PartOfSpeech=VV Lemma=收到 NamedEntityTag=O]
+[Text=总统 CharacterOffsetBegin=20 CharacterOffsetEnd=22 PartOfSpeech=NN Lemma=总统 NamedEntityTag=TITLE]
+[Text=特朗普 CharacterOffsetBegin=22 CharacterOffsetEnd=25 PartOfSpeech=NR Lemma=特朗普 NamedEntityTag=PERSON]
+[Text=的 CharacterOffsetBegin=25 CharacterOffsetEnd=26 PartOfSpeech=DEG Lemma=的 NamedEntityTag=O]
+[Text=指示 CharacterOffsetBegin=26 CharacterOffsetEnd=28 PartOfSpeech=NN Lemma=指示 NamedEntityTag=O]
+[Text=， CharacterOffsetBegin=28 CharacterOffsetEnd=29 PartOfSpeech=PU Lemma=， NamedEntityTag=O]
+[Text=对 CharacterOffsetBegin=29 CharacterOffsetEnd=30 PartOfSpeech=P Lemma=对 NamedEntityTag=O]
+[Text=其余 CharacterOffsetBegin=30 CharacterOffsetEnd=32 PartOfSpeech=DT Lemma=其余 NamedEntityTag=O]
+[Text=尚 CharacterOffsetBegin=32 CharacterOffsetEnd=33 PartOfSpeech=AD Lemma=尚 NamedEntityTag=O]
+[Text=未 CharacterOffsetBegin=33 CharacterOffsetEnd=34 PartOfSpeech=AD Lemma=未 NamedEntityTag=O]
+[Text=加征 CharacterOffsetBegin=34 CharacterOffsetEnd=36 PartOfSpeech=VV Lemma=加征 NamedEntityTag=O]
+[Text=关税 CharacterOffsetBegin=36 CharacterOffsetEnd=38 PartOfSpeech=NN Lemma=关税 NamedEntityTag=O]
+[Text=的 CharacterOffsetBegin=38 CharacterOffsetEnd=39 PartOfSpeech=DEC Lemma=的 NamedEntityTag=O]
+[Text=所有 CharacterOffsetBegin=39 CharacterOffsetEnd=41 PartOfSpeech=DT Lemma=所有 NamedEntityTag=O]
+[Text=中国 CharacterOffsetBegin=41 CharacterOffsetEnd=43 PartOfSpeech=NR Lemma=中国 NamedEntityTag=COUNTRY]
+[Text=商品 CharacterOffsetBegin=43 CharacterOffsetEnd=45 PartOfSpeech=NN Lemma=商品 NamedEntityTag=O]
+[Text=加征 CharacterOffsetBegin=45 CharacterOffsetEnd=47 PartOfSpeech=VV Lemma=加征 NamedEntityTag=O]
+[Text=关税 CharacterOffsetBegin=47 CharacterOffsetEnd=49 PartOfSpeech=NN Lemma=关税 NamedEntityTag=O]
+[Text=， CharacterOffsetBegin=49 CharacterOffsetEnd=50 PartOfSpeech=PU Lemma=， NamedEntityTag=O]
+[Text=星期一 CharacterOffsetBegin=50 CharacterOffsetEnd=53 PartOfSpeech=NT Lemma=星期一 NamedEntityTag=DATE]
+[Text=将 CharacterOffsetBegin=53 CharacterOffsetEnd=54 PartOfSpeech=AD Lemma=将 NamedEntityTag=O]
+[Text=公布 CharacterOffsetBegin=54 CharacterOffsetEnd=56 PartOfSpeech=VV Lemma=公布 NamedEntityTag=O]
+[Text=细节 CharacterOffsetBegin=56 CharacterOffsetEnd=58 PartOfSpeech=NN Lemma=细节 NamedEntityTag=O]
+[Text=。 CharacterOffsetBegin=58 CharacterOffsetEnd=59 PartOfSpeech=PU Lemma=。 NamedEntityTag=O]
+
+Constituency parse: 
+(ROOT
+  (IP
+    (IP
+      (NP
+        (NP
+          (NP (NR 美国))
+          (NP (NN 贸易) (NN 代表)))
+        (NP (NR 莱特)))
+      (VP (VV 希泽)
+        (NP (NT 星期五))))
+    (VP (VV 表示) (PU ，)
+      (IP
+        (IP
+          (NP (PN 他))
+          (VP
+            (ADVP (AD 已))
+            (VP (VV 收到)
+              (NP
+                (DNP
+                  (NP
+                    (NP (NN 总统))
+                    (NP (NR 特朗普)))
+                  (DEG 的))
+                (NP (NN 指示))))))
+        (PU ，)
+        (IP
+          (IP
+            (VP
+              (PP (P 对)
+                (NP
+                  (DP (DT 其余))
+                  (CP
+                    (IP
+                      (VP
+                        (ADVP (AD 尚))
+                        (ADVP (AD 未))
+                        (VP (VV 加征)
+                          (NP (NN 关税)))))
+                    (DEC 的))
+                  (DP (DT 所有))
+                  (NP (NR 中国))
+                  (NP (NN 商品))))
+              (VP (VV 加征)
+                (NP (NN 关税)))))
+          (PU ，)
+          (NP (NT 星期一))
+          (VP
+            (ADVP (AD 将))
+            (VP (VV 公布)
+              (NP (NN 细节)))))))
+    (PU 。)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, 希泽-5)
+nmod:assmod(代表-3, 美国-1)
+compound:nn(代表-3, 贸易-2)
+appos(莱特-4, 代表-3)
+nsubj(希泽-5, 莱特-4)
+nmod:tmod(表示-7, 星期五-6)
+conj(希泽-5, 表示-7)
+punct(表示-7, ，-8)
+nsubj(收到-11, 他-9)
+advmod(收到-11, 已-10)
+ccomp(表示-7, 收到-11)
+appos(特朗普-13, 总统-12)
+nmod:assmod(指示-15, 特朗普-13)
+case(特朗普-13, 的-14)
+dobj(收到-11, 指示-15)
+punct(收到-11, ，-16)
+case(商品-26, 对-17)
+det(商品-26, 其余-18)
+advmod(加征-21, 尚-19)
+advmod(加征-21, 未-20)
+acl(商品-26, 加征-21)
+dobj(加征-21, 关税-22)
+mark(加征-21, 的-23)
+det(商品-26, 所有-24)
+nmod:assmod(商品-26, 中国-25)
+nmod:prep(加征-27, 商品-26)
+conj(收到-11, 加征-27)
+dobj(加征-27, 关税-28)
+punct(收到-11, ，-29)
+nmod:tmod(公布-32, 星期一-30)
+advmod(公布-32, 将-31)
+conj(收到-11, 公布-32)
+dobj(公布-32, 细节-33)
+punct(希泽-5, 。-34)
+
+Extracted the following NER entity mentions:
+美国贸易代表莱特希泽	ORGANIZATION
+星期五	DATE
+总统	TITLE
+特朗普	PERSON
+中国	COUNTRY
+星期一	DATE
+
+Sentence #2 (15 tokens):
+此后特朗普发推特呼吁中国现在就采取行动(向美方让步)。
+
+Tokens:
+[Text=此后 CharacterOffsetBegin=59 CharacterOffsetEnd=61 PartOfSpeech=AD Lemma=此后 NamedEntityTag=O]
+[Text=特朗普发 CharacterOffsetBegin=61 CharacterOffsetEnd=65 PartOfSpeech=NR Lemma=特朗普发 NamedEntityTag=PERSON]
+[Text=推特 CharacterOffsetBegin=65 CharacterOffsetEnd=67 PartOfSpeech=NR Lemma=推特 NamedEntityTag=O]
+[Text=呼吁 CharacterOffsetBegin=67 CharacterOffsetEnd=69 PartOfSpeech=VV Lemma=呼吁 NamedEntityTag=O]
+[Text=中国 CharacterOffsetBegin=69 CharacterOffsetEnd=71 PartOfSpeech=NR Lemma=中国 NamedEntityTag=COUNTRY]
+[Text=现在 CharacterOffsetBegin=71 CharacterOffsetEnd=73 PartOfSpeech=NT Lemma=现在 NamedEntityTag=DATE]
+[Text=就 CharacterOffsetBegin=73 CharacterOffsetEnd=74 PartOfSpeech=AD Lemma=就 NamedEntityTag=O]
+[Text=采取 CharacterOffsetBegin=74 CharacterOffsetEnd=76 PartOfSpeech=VV Lemma=采取 NamedEntityTag=O]
+[Text=行动 CharacterOffsetBegin=76 CharacterOffsetEnd=78 PartOfSpeech=NN Lemma=行动 NamedEntityTag=O]
+[Text=( CharacterOffsetBegin=78 CharacterOffsetEnd=79 PartOfSpeech=PU Lemma=( NamedEntityTag=O]
+[Text=向 CharacterOffsetBegin=79 CharacterOffsetEnd=80 PartOfSpeech=P Lemma=向 NamedEntityTag=O]
+[Text=美方 CharacterOffsetBegin=80 CharacterOffsetEnd=82 PartOfSpeech=NN Lemma=美方 NamedEntityTag=DEMONYM]
+[Text=让步 CharacterOffsetBegin=82 CharacterOffsetEnd=84 PartOfSpeech=VV Lemma=让步 NamedEntityTag=O]
+[Text=) CharacterOffsetBegin=84 CharacterOffsetEnd=85 PartOfSpeech=PU Lemma=) NamedEntityTag=O]
+[Text=。 CharacterOffsetBegin=85 CharacterOffsetEnd=86 PartOfSpeech=PU Lemma=。 NamedEntityTag=O]
+
+Constituency parse: 
+(ROOT
+  (IP
+    (ADVP (AD 此后))
+    (NP (NR 特朗普发) (NR 推特))
+    (VP (VV 呼吁)
+      (IP
+        (NP (NR 中国))
+        (VP
+          (VP
+            (NP (NT 现在))
+            (ADVP (AD 就))
+            (VP (VV 采取)
+              (NP (NN 行动))))
+          (PU ()
+          (VP
+            (PP (P 向)
+              (NP (NN 美方)))
+            (VP (VV 让步))))))
+    (PU )) (PU 。)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, 呼吁-4)
+advmod(呼吁-4, 此后-1)
+name(推特-3, 特朗普发-2)
+nsubj(呼吁-4, 推特-3)
+nsubj(采取-8, 中国-5)
+nmod:tmod(采取-8, 现在-6)
+advmod(采取-8, 就-7)
+ccomp(呼吁-4, 采取-8)
+dobj(采取-8, 行动-9)
+punct(采取-8, (-10)
+case(美方-12, 向-11)
+nmod:prep(让步-13, 美方-12)
+conj(采取-8, 让步-13)
+punct(采取-8, )-14)
+punct(呼吁-4, 。-15)
+
+Extracted the following NER entity mentions:
+特朗普发	PERSON
+中国	COUNTRY
+现在	DATE
+美方	DEMONYM
+
+Sentence #3 (28 tokens):
+关于中美下一步何时磋商，美财政部长姆努钦对媒体回应说：“目前还没有这方面的安排。”
+
+Tokens:
+[Text=关于 CharacterOffsetBegin=86 CharacterOffsetEnd=88 PartOfSpeech=P Lemma=关于 NamedEntityTag=O]
+[Text=中 CharacterOffsetBegin=88 CharacterOffsetEnd=89 PartOfSpeech=NR Lemma=中 NamedEntityTag=GPE]
+[Text=美 CharacterOffsetBegin=89 CharacterOffsetEnd=90 PartOfSpeech=NR Lemma=美 NamedEntityTag=COUNTRY]
+[Text=下 CharacterOffsetBegin=90 CharacterOffsetEnd=91 PartOfSpeech=DT Lemma=下 NamedEntityTag=O]
+[Text=一 CharacterOffsetBegin=91 CharacterOffsetEnd=92 PartOfSpeech=CD Lemma=一 NamedEntityTag=NUMBER NormalizedNamedEntityTag=1]
+[Text=步 CharacterOffsetBegin=92 CharacterOffsetEnd=93 PartOfSpeech=M Lemma=步 NamedEntityTag=O]
+[Text=何时 CharacterOffsetBegin=93 CharacterOffsetEnd=95 PartOfSpeech=AD Lemma=何时 NamedEntityTag=O]
+[Text=磋商 CharacterOffsetBegin=95 CharacterOffsetEnd=97 PartOfSpeech=VV Lemma=磋商 NamedEntityTag=O]
+[Text=， CharacterOffsetBegin=97 CharacterOffsetEnd=98 PartOfSpeech=PU Lemma=， NamedEntityTag=O]
+[Text=美 CharacterOffsetBegin=98 CharacterOffsetEnd=99 PartOfSpeech=NR Lemma=美 NamedEntityTag=ORGANIZATION]
+[Text=财政 CharacterOffsetBegin=99 CharacterOffsetEnd=101 PartOfSpeech=NN Lemma=财政 NamedEntityTag=TITLE]
+[Text=部长 CharacterOffsetBegin=101 CharacterOffsetEnd=103 PartOfSpeech=NN Lemma=部长 NamedEntityTag=TITLE]
+[Text=姆努钦 CharacterOffsetBegin=103 CharacterOffsetEnd=106 PartOfSpeech=NR Lemma=姆努钦 NamedEntityTag=PERSON]
+[Text=对 CharacterOffsetBegin=106 CharacterOffsetEnd=107 PartOfSpeech=P Lemma=对 NamedEntityTag=O]
+[Text=媒体 CharacterOffsetBegin=107 CharacterOffsetEnd=109 PartOfSpeech=NN Lemma=媒体 NamedEntityTag=O]
+[Text=回应 CharacterOffsetBegin=109 CharacterOffsetEnd=111 PartOfSpeech=VV Lemma=回应 NamedEntityTag=O]
+[Text=说 CharacterOffsetBegin=111 CharacterOffsetEnd=112 PartOfSpeech=VV Lemma=说 NamedEntityTag=O]
+[Text=： CharacterOffsetBegin=112 CharacterOffsetEnd=113 PartOfSpeech=PU Lemma=： NamedEntityTag=O]
+[Text=“ CharacterOffsetBegin=113 CharacterOffsetEnd=114 PartOfSpeech=PU Lemma=“ NamedEntityTag=O]
+[Text=目前 CharacterOffsetBegin=114 CharacterOffsetEnd=116 PartOfSpeech=NT Lemma=目前 NamedEntityTag=DATE]
+[Text=还 CharacterOffsetBegin=116 CharacterOffsetEnd=117 PartOfSpeech=AD Lemma=还 NamedEntityTag=O]
+[Text=没有 CharacterOffsetBegin=117 CharacterOffsetEnd=119 PartOfSpeech=VE Lemma=没有 NamedEntityTag=O]
+[Text=这 CharacterOffsetBegin=119 CharacterOffsetEnd=120 PartOfSpeech=DT Lemma=这 NamedEntityTag=O]
+[Text=方面 CharacterOffsetBegin=120 CharacterOffsetEnd=122 PartOfSpeech=NN Lemma=方面 NamedEntityTag=O]
+[Text=的 CharacterOffsetBegin=122 CharacterOffsetEnd=123 PartOfSpeech=DEG Lemma=的 NamedEntityTag=O]
+[Text=安排 CharacterOffsetBegin=123 CharacterOffsetEnd=125 PartOfSpeech=NN Lemma=安排 NamedEntityTag=O]
+[Text=。 CharacterOffsetBegin=125 CharacterOffsetEnd=126 PartOfSpeech=PU Lemma=。 NamedEntityTag=O]
+[Text=” CharacterOffsetBegin=126 CharacterOffsetEnd=127 PartOfSpeech=PU Lemma=” NamedEntityTag=O]
+
+Constituency parse: 
+(ROOT
+  (IP
+    (PP (P 关于)
+      (IP
+        (NP (NR 中) (NR 美))
+        (DP (DT 下)
+          (QP (CD 一)
+            (CLP (M 步))))
+        (VP
+          (ADVP (AD 何时))
+          (VP (VV 磋商)))))
+    (PU ，)
+    (NP
+      (NP (NR 美) (NN 财政) (NN 部长))
+      (NP (NR 姆努钦)))
+    (VP
+      (PP (P 对)
+        (NP (NN 媒体)))
+      (VP
+        (VSB (VV 回应) (VV 说))
+        (PU ：)
+        (IP (PU “)
+          (VP
+            (NP (NT 目前))
+            (ADVP (AD 还))
+            (VP (VE 没有)
+              (NP
+                (DNP
+                  (NP
+                    (DP (DT 这))
+                    (NP (NN 方面)))
+                  (DEG 的))
+                (NP (NN 安排))))))))
+    (PU 。) (PU ”)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, 说-17)
+case(磋商-8, 关于-1)
+name(美-3, 中-2)
+nsubj(磋商-8, 美-3)
+dep(磋商-8, 下-4)
+dep(下-4, 一-5)
+mark:clf(一-5, 步-6)
+advmod(磋商-8, 何时-7)
+nmod:prep(说-17, 磋商-8)
+punct(说-17, ，-9)
+nmod:assmod(部长-12, 美-10)
+compound:nn(部长-12, 财政-11)
+appos(姆努钦-13, 部长-12)
+nsubj(说-17, 姆努钦-13)
+case(媒体-15, 对-14)
+nmod:prep(说-17, 媒体-15)
+compound:vc(说-17, 回应-16)
+punct(说-17, ：-18)
+punct(没有-22, “-19)
+nmod:tmod(没有-22, 目前-20)
+advmod(没有-22, 还-21)
+ccomp(说-17, 没有-22)
+det(方面-24, 这-23)
+nmod:assmod(安排-26, 方面-24)
+case(方面-24, 的-25)
+dobj(没有-22, 安排-26)
+punct(说-17, 。-27)
+punct(说-17, ”-28)
+
+Extracted the following NER entity mentions:
+中	GPE
+美	COUNTRY
+一	NUMBER
+美	ORGANIZATION
+财政部长	TITLE
+姆努钦	PERSON
+目前	DATE
+
+Sentence #4 (21 tokens):
+美方是挑起贸易战的一方，自恃实力强大，相信它的关税大棒足以压垮中国。
+
+Tokens:
+[Text=美方 CharacterOffsetBegin=131 CharacterOffsetEnd=133 PartOfSpeech=NN Lemma=美方 NamedEntityTag=GPE]
+[Text=是 CharacterOffsetBegin=133 CharacterOffsetEnd=134 PartOfSpeech=VC Lemma=是 NamedEntityTag=O]
+[Text=挑起 CharacterOffsetBegin=134 CharacterOffsetEnd=136 PartOfSpeech=VV Lemma=挑起 NamedEntityTag=O]
+[Text=贸易战 CharacterOffsetBegin=136 CharacterOffsetEnd=139 PartOfSpeech=NN Lemma=贸易战 NamedEntityTag=O]
+[Text=的 CharacterOffsetBegin=139 CharacterOffsetEnd=140 PartOfSpeech=DEC Lemma=的 NamedEntityTag=O]
+[Text=一 CharacterOffsetBegin=140 CharacterOffsetEnd=141 PartOfSpeech=CD Lemma=一 NamedEntityTag=NUMBER NormalizedNamedEntityTag=1]
+[Text=方 CharacterOffsetBegin=141 CharacterOffsetEnd=142 PartOfSpeech=NN Lemma=方 NamedEntityTag=O]
+[Text=， CharacterOffsetBegin=142 CharacterOffsetEnd=143 PartOfSpeech=PU Lemma=， NamedEntityTag=O]
+[Text=自恃 CharacterOffsetBegin=143 CharacterOffsetEnd=145 PartOfSpeech=AD Lemma=自恃 NamedEntityTag=O]
+[Text=实力 CharacterOffsetBegin=145 CharacterOffsetEnd=147 PartOfSpeech=NN Lemma=实力 NamedEntityTag=O]
+[Text=强大 CharacterOffsetBegin=147 CharacterOffsetEnd=149 PartOfSpeech=VA Lemma=强大 NamedEntityTag=O]
+[Text=， CharacterOffsetBegin=149 CharacterOffsetEnd=150 PartOfSpeech=PU Lemma=， NamedEntityTag=O]
+[Text=相信 CharacterOffsetBegin=150 CharacterOffsetEnd=152 PartOfSpeech=VV Lemma=相信 NamedEntityTag=O]
+[Text=它 CharacterOffsetBegin=152 CharacterOffsetEnd=153 PartOfSpeech=PN Lemma=它 NamedEntityTag=O]
+[Text=的 CharacterOffsetBegin=153 CharacterOffsetEnd=154 PartOfSpeech=DEG Lemma=的 NamedEntityTag=O]
+[Text=关税 CharacterOffsetBegin=154 CharacterOffsetEnd=156 PartOfSpeech=NN Lemma=关税 NamedEntityTag=O]
+[Text=大棒 CharacterOffsetBegin=156 CharacterOffsetEnd=158 PartOfSpeech=NN Lemma=大棒 NamedEntityTag=O]
+[Text=足以 CharacterOffsetBegin=158 CharacterOffsetEnd=160 PartOfSpeech=VV Lemma=足以 NamedEntityTag=O]
+[Text=压垮 CharacterOffsetBegin=160 CharacterOffsetEnd=162 PartOfSpeech=VV Lemma=压垮 NamedEntityTag=O]
+[Text=中国 CharacterOffsetBegin=162 CharacterOffsetEnd=164 PartOfSpeech=NR Lemma=中国 NamedEntityTag=COUNTRY]
+[Text=。 CharacterOffsetBegin=164 CharacterOffsetEnd=165 PartOfSpeech=PU Lemma=。 NamedEntityTag=O]
+
+Constituency parse: 
+(ROOT
+  (IP
+    (NP (NN 美方))
+    (VP
+      (VP (VC 是)
+        (NP
+          (CP
+            (IP
+              (VP (VV 挑起)
+                (NP (NN 贸易战))))
+            (DEC 的))
+          (QP (CD 一))
+          (NP (NN 方))))
+      (PU ，)
+      (IP
+        (IP
+          (ADVP (AD 自恃))
+          (NP (NN 实力))
+          (VP (VA 强大)))
+        (PU ，)
+        (IP
+          (VP (VV 相信)
+            (IP
+              (NP
+                (DNP
+                  (NP (PN 它))
+                  (DEG 的))
+                (NP (NN 关税) (NN 大棒)))
+              (VP (VV 足以)
+                (IP
+                  (VP (VV 压垮)
+                    (NP (NR 中国))))))))))
+    (PU 。)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, 方-7)
+nsubj(方-7, 美方-1)
+cop(方-7, 是-2)
+acl(方-7, 挑起-3)
+dobj(挑起-3, 贸易战-4)
+mark(挑起-3, 的-5)
+dep(方-7, 一-6)
+punct(方-7, ，-8)
+advmod(强大-11, 自恃-9)
+nsubj(强大-11, 实力-10)
+conj(方-7, 强大-11)
+punct(方-7, ，-12)
+conj(方-7, 相信-13)
+nmod:assmod(大棒-17, 它-14)
+case(它-14, 的-15)
+compound:nn(大棒-17, 关税-16)
+nsubj(足以-18, 大棒-17)
+ccomp(相信-13, 足以-18)
+ccomp(足以-18, 压垮-19)
+dobj(压垮-19, 中国-20)
+punct(方-7, 。-21)
+
+Extracted the following NER entity mentions:
+美方	GPE
+一	NUMBER
+中国	COUNTRY
+
+Sentence #5 (37 tokens):
+中方的回应则是太极哲学的示范版，坚守原则，不主动打也不惧战，用更大的承受力瓦解对方的攻击力，增加其他情况出现的可能性。
+
+Tokens:
+[Text=中方 CharacterOffsetBegin=165 CharacterOffsetEnd=167 PartOfSpeech=NN Lemma=中方 NamedEntityTag=O]
+[Text=的 CharacterOffsetBegin=167 CharacterOffsetEnd=168 PartOfSpeech=DEG Lemma=的 NamedEntityTag=O]
+[Text=回应 CharacterOffsetBegin=168 CharacterOffsetEnd=170 PartOfSpeech=NN Lemma=回应 NamedEntityTag=O]
+[Text=则 CharacterOffsetBegin=170 CharacterOffsetEnd=171 PartOfSpeech=AD Lemma=则 NamedEntityTag=O]
+[Text=是 CharacterOffsetBegin=171 CharacterOffsetEnd=172 PartOfSpeech=VC Lemma=是 NamedEntityTag=O]
+[Text=太极 CharacterOffsetBegin=172 CharacterOffsetEnd=174 PartOfSpeech=NN Lemma=太极 NamedEntityTag=O]
+[Text=哲学 CharacterOffsetBegin=174 CharacterOffsetEnd=176 PartOfSpeech=NN Lemma=哲学 NamedEntityTag=O]
+[Text=的 CharacterOffsetBegin=176 CharacterOffsetEnd=177 PartOfSpeech=DEG Lemma=的 NamedEntityTag=O]
+[Text=示范 CharacterOffsetBegin=177 CharacterOffsetEnd=179 PartOfSpeech=NN Lemma=示范 NamedEntityTag=O]
+[Text=版 CharacterOffsetBegin=179 CharacterOffsetEnd=180 PartOfSpeech=NN Lemma=版 NamedEntityTag=O]
+[Text=， CharacterOffsetBegin=180 CharacterOffsetEnd=181 PartOfSpeech=PU Lemma=， NamedEntityTag=O]
+[Text=坚守 CharacterOffsetBegin=181 CharacterOffsetEnd=183 PartOfSpeech=VV Lemma=坚守 NamedEntityTag=O]
+[Text=原则 CharacterOffsetBegin=183 CharacterOffsetEnd=185 PartOfSpeech=NN Lemma=原则 NamedEntityTag=O]
+[Text=， CharacterOffsetBegin=185 CharacterOffsetEnd=186 PartOfSpeech=PU Lemma=， NamedEntityTag=O]
+[Text=不 CharacterOffsetBegin=186 CharacterOffsetEnd=187 PartOfSpeech=AD Lemma=不 NamedEntityTag=O]
+[Text=主动 CharacterOffsetBegin=187 CharacterOffsetEnd=189 PartOfSpeech=AD Lemma=主动 NamedEntityTag=O]
+[Text=打 CharacterOffsetBegin=189 CharacterOffsetEnd=190 PartOfSpeech=VV Lemma=打 NamedEntityTag=O]
+[Text=也 CharacterOffsetBegin=190 CharacterOffsetEnd=191 PartOfSpeech=AD Lemma=也 NamedEntityTag=O]
+[Text=不惧战 CharacterOffsetBegin=191 CharacterOffsetEnd=194 PartOfSpeech=VV Lemma=不惧战 NamedEntityTag=O]
+[Text=， CharacterOffsetBegin=194 CharacterOffsetEnd=195 PartOfSpeech=PU Lemma=， NamedEntityTag=O]
+[Text=用 CharacterOffsetBegin=195 CharacterOffsetEnd=196 PartOfSpeech=P Lemma=用 NamedEntityTag=O]
+[Text=更 CharacterOffsetBegin=196 CharacterOffsetEnd=197 PartOfSpeech=AD Lemma=更 NamedEntityTag=O]
+[Text=大 CharacterOffsetBegin=197 CharacterOffsetEnd=198 PartOfSpeech=VA Lemma=大 NamedEntityTag=O]
+[Text=的 CharacterOffsetBegin=198 CharacterOffsetEnd=199 PartOfSpeech=DEC Lemma=的 NamedEntityTag=O]
+[Text=承受力 CharacterOffsetBegin=199 CharacterOffsetEnd=202 PartOfSpeech=NN Lemma=承受力 NamedEntityTag=O]
+[Text=瓦解 CharacterOffsetBegin=202 CharacterOffsetEnd=204 PartOfSpeech=VV Lemma=瓦解 NamedEntityTag=O]
+[Text=对方 CharacterOffsetBegin=204 CharacterOffsetEnd=206 PartOfSpeech=PN Lemma=对方 NamedEntityTag=O]
+[Text=的 CharacterOffsetBegin=206 CharacterOffsetEnd=207 PartOfSpeech=DEG Lemma=的 NamedEntityTag=O]
+[Text=攻击力 CharacterOffsetBegin=207 CharacterOffsetEnd=210 PartOfSpeech=NN Lemma=攻击力 NamedEntityTag=O]
+[Text=， CharacterOffsetBegin=210 CharacterOffsetEnd=211 PartOfSpeech=PU Lemma=， NamedEntityTag=O]
+[Text=增加 CharacterOffsetBegin=211 CharacterOffsetEnd=213 PartOfSpeech=VV Lemma=增加 NamedEntityTag=O]
+[Text=其他 CharacterOffsetBegin=213 CharacterOffsetEnd=215 PartOfSpeech=DT Lemma=其他 NamedEntityTag=IDEOLOGY]
+[Text=情况 CharacterOffsetBegin=215 CharacterOffsetEnd=217 PartOfSpeech=NN Lemma=情况 NamedEntityTag=O]
+[Text=出现 CharacterOffsetBegin=217 CharacterOffsetEnd=219 PartOfSpeech=VV Lemma=出现 NamedEntityTag=O]
+[Text=的 CharacterOffsetBegin=219 CharacterOffsetEnd=220 PartOfSpeech=DEC Lemma=的 NamedEntityTag=O]
+[Text=可能性 CharacterOffsetBegin=220 CharacterOffsetEnd=223 PartOfSpeech=NN Lemma=可能性 NamedEntityTag=O]
+[Text=。 CharacterOffsetBegin=223 CharacterOffsetEnd=224 PartOfSpeech=PU Lemma=。 NamedEntityTag=O]
+
+Constituency parse: 
+(ROOT
+  (IP
+    (NP
+      (DNP
+        (NP (NN 中方))
+        (DEG 的))
+      (NP (NN 回应)))
+    (VP
+      (VP
+        (ADVP (AD 则))
+        (VP (VC 是)
+          (NP
+            (DNP
+              (NP (NN 太极) (NN 哲学))
+              (DEG 的))
+            (NP (NN 示范) (NN 版))))
+        (PU ，)
+        (VP (VV 坚守)
+          (NP (NN 原则))))
+      (PU ，)
+      (VP
+        (VP
+          (ADVP (AD 不))
+          (ADVP (AD 主动))
+          (VP (VV 打)))
+        (VP
+          (ADVP (AD 也))
+          (VP (VV 不惧战))))
+      (PU ，)
+      (VP
+        (PP (P 用)
+          (NP
+            (DNP
+              (ADJP
+                (ADVP (AD 更))
+                (ADJP (VA 大)))
+              (DEC 的))
+            (NP (NN 承受力))))
+        (VP (VV 瓦解)
+          (NP
+            (DNP
+              (NP (PN 对方))
+              (DEG 的))
+            (NP (NN 攻击力)))))
+      (PU ，)
+      (VP (VV 增加)
+        (NP
+          (CP
+            (IP
+              (NP
+                (DP (DT 其他))
+                (NP (NN 情况)))
+              (VP (VV 出现)))
+            (DEC 的))
+          (NP (NN 可能性)))))
+    (PU 。)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, 版-10)
+nmod:assmod(回应-3, 中方-1)
+case(中方-1, 的-2)
+nsubj(版-10, 回应-3)
+advmod(版-10, 则-4)
+cop(版-10, 是-5)
+compound:nn(哲学-7, 太极-6)
+nmod:assmod(版-10, 哲学-7)
+case(哲学-7, 的-8)
+compound:nn(版-10, 示范-9)
+punct(版-10, ，-11)
+dep(打-17, 坚守-12)
+dobj(坚守-12, 原则-13)
+punct(打-17, ，-14)
+neg(打-17, 不-15)
+advmod(打-17, 主动-16)
+conj(版-10, 打-17)
+advmod(不惧战-19, 也-18)
+conj(打-17, 不惧战-19)
+punct(打-17, ，-20)
+case(承受力-25, 用-21)
+advmod(大-23, 更-22)
+amod(承受力-25, 大-23)
+mark(大-23, 的-24)
+nmod:prep(瓦解-26, 承受力-25)
+conj(打-17, 瓦解-26)
+nmod:assmod(攻击力-29, 对方-27)
+case(对方-27, 的-28)
+dobj(瓦解-26, 攻击力-29)
+punct(打-17, ，-30)
+conj(打-17, 增加-31)
+det(情况-33, 其他-32)
+nsubj(出现-34, 情况-33)
+acl(可能性-36, 出现-34)
+mark(出现-34, 的-35)
+dobj(增加-31, 可能性-36)
+punct(版-10, 。-37)
+
+Extracted the following NER entity mentions:
+其他	IDEOLOGY
+
+Sentence #6 (24 tokens):
+美方攻势猛烈，但这种攻势在经济学上充满了非理性，对美国经济将导致常识性的自伤。
+
+Tokens:
+[Text=美方 CharacterOffsetBegin=226 CharacterOffsetEnd=228 PartOfSpeech=NN Lemma=美方 NamedEntityTag=DEMONYM]
+[Text=攻势 CharacterOffsetBegin=228 CharacterOffsetEnd=230 PartOfSpeech=NN Lemma=攻势 NamedEntityTag=O]
+[Text=猛烈 CharacterOffsetBegin=230 CharacterOffsetEnd=232 PartOfSpeech=VA Lemma=猛烈 NamedEntityTag=O]
+[Text=， CharacterOffsetBegin=232 CharacterOffsetEnd=233 PartOfSpeech=PU Lemma=， NamedEntityTag=O]
+[Text=但 CharacterOffsetBegin=233 CharacterOffsetEnd=234 PartOfSpeech=AD Lemma=但 NamedEntityTag=O]
+[Text=这 CharacterOffsetBegin=234 CharacterOffsetEnd=235 PartOfSpeech=DT Lemma=这 NamedEntityTag=O]
+[Text=种 CharacterOffsetBegin=235 CharacterOffsetEnd=236 PartOfSpeech=M Lemma=种 NamedEntityTag=O]
+[Text=攻势 CharacterOffsetBegin=236 CharacterOffsetEnd=238 PartOfSpeech=NN Lemma=攻势 NamedEntityTag=O]
+[Text=在 CharacterOffsetBegin=238 CharacterOffsetEnd=239 PartOfSpeech=P Lemma=在 NamedEntityTag=O]
+[Text=经济学 CharacterOffsetBegin=239 CharacterOffsetEnd=242 PartOfSpeech=NN Lemma=经济学 NamedEntityTag=O]
+[Text=上 CharacterOffsetBegin=242 CharacterOffsetEnd=243 PartOfSpeech=LC Lemma=上 NamedEntityTag=O]
+[Text=充满 CharacterOffsetBegin=243 CharacterOffsetEnd=245 PartOfSpeech=VV Lemma=充满 NamedEntityTag=O]
+[Text=了 CharacterOffsetBegin=245 CharacterOffsetEnd=246 PartOfSpeech=AS Lemma=了 NamedEntityTag=O]
+[Text=非理性 CharacterOffsetBegin=246 CharacterOffsetEnd=249 PartOfSpeech=JJ Lemma=非理性 NamedEntityTag=O]
+[Text=， CharacterOffsetBegin=249 CharacterOffsetEnd=250 PartOfSpeech=PU Lemma=， NamedEntityTag=O]
+[Text=对 CharacterOffsetBegin=250 CharacterOffsetEnd=251 PartOfSpeech=P Lemma=对 NamedEntityTag=O]
+[Text=美国 CharacterOffsetBegin=251 CharacterOffsetEnd=253 PartOfSpeech=NR Lemma=美国 NamedEntityTag=COUNTRY]
+[Text=经济 CharacterOffsetBegin=253 CharacterOffsetEnd=255 PartOfSpeech=NN Lemma=经济 NamedEntityTag=O]
+[Text=将 CharacterOffsetBegin=255 CharacterOffsetEnd=256 PartOfSpeech=AD Lemma=将 NamedEntityTag=O]
+[Text=导致 CharacterOffsetBegin=256 CharacterOffsetEnd=258 PartOfSpeech=VV Lemma=导致 NamedEntityTag=O]
+[Text=常识性 CharacterOffsetBegin=258 CharacterOffsetEnd=261 PartOfSpeech=JJ Lemma=常识性 NamedEntityTag=O]
+[Text=的 CharacterOffsetBegin=261 CharacterOffsetEnd=262 PartOfSpeech=DEG Lemma=的 NamedEntityTag=O]
+[Text=自伤 CharacterOffsetBegin=262 CharacterOffsetEnd=264 PartOfSpeech=NN Lemma=自伤 NamedEntityTag=O]
+[Text=。 CharacterOffsetBegin=264 CharacterOffsetEnd=265 PartOfSpeech=PU Lemma=。 NamedEntityTag=O]
+
+Constituency parse: 
+(ROOT
+  (IP
+    (IP
+      (NP (NN 美方) (NN 攻势))
+      (VP (VA 猛烈)))
+    (PU ，)
+    (IP
+      (ADVP (AD 但))
+      (NP
+        (DP (DT 这)
+          (CLP (M 种)))
+        (NP (NN 攻势)))
+      (VP
+        (PP (P 在)
+          (LCP
+            (NP (NN 经济学))
+            (LC 上)))
+        (VP (VV 充满) (AS 了)
+          (IP (JJ 非理性) (PU ，)
+            (PP (P 对)
+              (IP
+                (NP
+                  (NP (NR 美国))
+                  (NP (NN 经济)))
+                (VP
+                  (ADVP (AD 将))
+                  (VP (VV 导致)
+                    (NP
+                      (DNP
+                        (ADJP (JJ 常识性))
+                        (DEG 的))
+                      (NP (NN 自伤)))))))))))
+    (PU 。)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, 猛烈-3)
+compound:nn(攻势-2, 美方-1)
+nsubj(猛烈-3, 攻势-2)
+punct(猛烈-3, ，-4)
+advmod(充满-12, 但-5)
+det(攻势-8, 这-6)
+mark:clf(这-6, 种-7)
+nsubj(充满-12, 攻势-8)
+case(经济学-10, 在-9)
+nmod:prep(充满-12, 经济学-10)
+case(经济学-10, 上-11)
+conj(猛烈-3, 充满-12)
+aux:asp(充满-12, 了-13)
+dobj(充满-12, 非理性-14)
+punct(猛烈-3, ，-15)
+case(经济-18, 对-16)
+nmod:assmod(经济-18, 美国-17)
+nmod:prep(导致-20, 经济-18)
+advmod(导致-20, 将-19)
+conj(猛烈-3, 导致-20)
+amod(自伤-23, 常识性-21)
+case(常识性-21, 的-22)
+dobj(导致-20, 自伤-23)
+punct(猛烈-3, 。-24)
+
+Extracted the following NER entity mentions:
+美方	DEMONYM
+美国	COUNTRY
+
+Sentence #7 (45 tokens):
+美方显然寄希望于人类贸易史上从未有过的凶猛关税战可以一举摧毁中国的意志，以短时间内的损失换取中国接受不平等协议，铸就美国现政府的“辉煌大业”。
+
+Tokens:
+[Text=美方 CharacterOffsetBegin=265 CharacterOffsetEnd=267 PartOfSpeech=NN Lemma=美方 NamedEntityTag=O]
+[Text=显然 CharacterOffsetBegin=267 CharacterOffsetEnd=269 PartOfSpeech=AD Lemma=显然 NamedEntityTag=O]
+[Text=寄 CharacterOffsetBegin=269 CharacterOffsetEnd=270 PartOfSpeech=VV Lemma=寄 NamedEntityTag=O]
+[Text=希望 CharacterOffsetBegin=270 CharacterOffsetEnd=272 PartOfSpeech=VV Lemma=希望 NamedEntityTag=O]
+[Text=于 CharacterOffsetBegin=272 CharacterOffsetEnd=273 PartOfSpeech=P Lemma=于 NamedEntityTag=O]
+[Text=人类 CharacterOffsetBegin=273 CharacterOffsetEnd=275 PartOfSpeech=NN Lemma=人类 NamedEntityTag=O]
+[Text=贸易 CharacterOffsetBegin=275 CharacterOffsetEnd=277 PartOfSpeech=NN Lemma=贸易 NamedEntityTag=O]
+[Text=史上 CharacterOffsetBegin=277 CharacterOffsetEnd=279 PartOfSpeech=AD Lemma=史上 NamedEntityTag=O]
+[Text=从未 CharacterOffsetBegin=279 CharacterOffsetEnd=281 PartOfSpeech=AD Lemma=从未 NamedEntityTag=O]
+[Text=有 CharacterOffsetBegin=281 CharacterOffsetEnd=282 PartOfSpeech=VE Lemma=有 NamedEntityTag=O]
+[Text=过 CharacterOffsetBegin=282 CharacterOffsetEnd=283 PartOfSpeech=AS Lemma=过 NamedEntityTag=O]
+[Text=的 CharacterOffsetBegin=283 CharacterOffsetEnd=284 PartOfSpeech=DEC Lemma=的 NamedEntityTag=O]
+[Text=凶猛 CharacterOffsetBegin=284 CharacterOffsetEnd=286 PartOfSpeech=VA Lemma=凶猛 NamedEntityTag=O]
+[Text=关税 CharacterOffsetBegin=286 CharacterOffsetEnd=288 PartOfSpeech=NN Lemma=关税 NamedEntityTag=O]
+[Text=战 CharacterOffsetBegin=288 CharacterOffsetEnd=289 PartOfSpeech=NN Lemma=战 NamedEntityTag=O]
+[Text=可以 CharacterOffsetBegin=289 CharacterOffsetEnd=291 PartOfSpeech=VV Lemma=可以 NamedEntityTag=O]
+[Text=一举 CharacterOffsetBegin=291 CharacterOffsetEnd=293 PartOfSpeech=AD Lemma=一举 NamedEntityTag=O]
+[Text=摧毁 CharacterOffsetBegin=293 CharacterOffsetEnd=295 PartOfSpeech=VV Lemma=摧毁 NamedEntityTag=O]
+[Text=中国 CharacterOffsetBegin=295 CharacterOffsetEnd=297 PartOfSpeech=NR Lemma=中国 NamedEntityTag=COUNTRY]
+[Text=的 CharacterOffsetBegin=297 CharacterOffsetEnd=298 PartOfSpeech=DEG Lemma=的 NamedEntityTag=O]
+[Text=意志 CharacterOffsetBegin=298 CharacterOffsetEnd=300 PartOfSpeech=NN Lemma=意志 NamedEntityTag=O]
+[Text=， CharacterOffsetBegin=300 CharacterOffsetEnd=301 PartOfSpeech=PU Lemma=， NamedEntityTag=O]
+[Text=以 CharacterOffsetBegin=301 CharacterOffsetEnd=302 PartOfSpeech=P Lemma=以 NamedEntityTag=O]
+[Text=短 CharacterOffsetBegin=302 CharacterOffsetEnd=303 PartOfSpeech=JJ Lemma=短 NamedEntityTag=O]
+[Text=时间 CharacterOffsetBegin=303 CharacterOffsetEnd=305 PartOfSpeech=NN Lemma=时间 NamedEntityTag=O]
+[Text=内 CharacterOffsetBegin=305 CharacterOffsetEnd=306 PartOfSpeech=LC Lemma=内 NamedEntityTag=O]
+[Text=的 CharacterOffsetBegin=306 CharacterOffsetEnd=307 PartOfSpeech=DEG Lemma=的 NamedEntityTag=O]
+[Text=损失 CharacterOffsetBegin=307 CharacterOffsetEnd=309 PartOfSpeech=NN Lemma=损失 NamedEntityTag=O]
+[Text=换取 CharacterOffsetBegin=309 CharacterOffsetEnd=311 PartOfSpeech=VV Lemma=换取 NamedEntityTag=O]
+[Text=中国 CharacterOffsetBegin=311 CharacterOffsetEnd=313 PartOfSpeech=NR Lemma=中国 NamedEntityTag=COUNTRY]
+[Text=接受 CharacterOffsetBegin=313 CharacterOffsetEnd=315 PartOfSpeech=VV Lemma=接受 NamedEntityTag=O]
+[Text=不 CharacterOffsetBegin=315 CharacterOffsetEnd=316 PartOfSpeech=AD Lemma=不 NamedEntityTag=O]
+[Text=平等 CharacterOffsetBegin=316 CharacterOffsetEnd=318 PartOfSpeech=JJ Lemma=平等 NamedEntityTag=O]
+[Text=协议 CharacterOffsetBegin=318 CharacterOffsetEnd=320 PartOfSpeech=NN Lemma=协议 NamedEntityTag=O]
+[Text=， CharacterOffsetBegin=320 CharacterOffsetEnd=321 PartOfSpeech=PU Lemma=， NamedEntityTag=O]
+[Text=铸就 CharacterOffsetBegin=321 CharacterOffsetEnd=323 PartOfSpeech=VV Lemma=铸就 NamedEntityTag=O]
+[Text=美国 CharacterOffsetBegin=323 CharacterOffsetEnd=325 PartOfSpeech=NR Lemma=美国 NamedEntityTag=COUNTRY]
+[Text=现 CharacterOffsetBegin=325 CharacterOffsetEnd=326 PartOfSpeech=JJ Lemma=现 NamedEntityTag=O]
+[Text=政府 CharacterOffsetBegin=326 CharacterOffsetEnd=328 PartOfSpeech=NN Lemma=政府 NamedEntityTag=O]
+[Text=的 CharacterOffsetBegin=328 CharacterOffsetEnd=329 PartOfSpeech=DEG Lemma=的 NamedEntityTag=O]
+[Text=“ CharacterOffsetBegin=329 CharacterOffsetEnd=330 PartOfSpeech=PU Lemma=“ NamedEntityTag=O]
+[Text=辉煌 CharacterOffsetBegin=330 CharacterOffsetEnd=332 PartOfSpeech=NN Lemma=辉煌 NamedEntityTag=O]
+[Text=大业 CharacterOffsetBegin=332 CharacterOffsetEnd=334 PartOfSpeech=NN Lemma=大业 NamedEntityTag=O]
+[Text=” CharacterOffsetBegin=334 CharacterOffsetEnd=335 PartOfSpeech=PU Lemma=” NamedEntityTag=O]
+[Text=。 CharacterOffsetBegin=335 CharacterOffsetEnd=336 PartOfSpeech=PU Lemma=。 NamedEntityTag=O]
+
+Constituency parse: 
+(ROOT
+  (IP
+    (IP
+      (NP (NN 美方))
+      (VP
+        (VP
+          (ADVP (AD 显然))
+          (VP (VV 寄)
+            (NP (VV 希望))
+            (IP
+              (CP
+                (IP
+                  (VP
+                    (PP (P 于)
+                      (NP (NN 人类) (NN 贸易)))
+                    (ADVP (AD 史上))
+                    (ADVP (AD 从未))
+                    (VP (VE 有) (AS 过))))
+                (DEC 的))
+              (VP (VA 凶猛)
+                (IP
+                  (NP (NN 关税) (NN 战))
+                  (VP (VV 可以)
+                    (VP
+                      (ADVP (AD 一举))
+                      (VP (VV 摧毁)
+                        (NP
+                          (DNP
+                            (NP (NR 中国))
+                            (DEG 的))
+                          (NP (NN 意志)))))))))))
+        (PU ，)
+        (VP
+          (VP
+            (PP (P 以)
+              (NP
+                (DNP
+                  (LCP
+                    (NP
+                      (ADJP (JJ 短))
+                      (NP (NN 时间)))
+                    (LC 内))
+                  (DEG 的))
+                (NP (NN 损失))))
+            (VP (VV 换取)
+              (NP (NR 中国))))
+          (VP (VV 接受)
+            (NP
+              (ADJP
+                (ADVP (AD 不))
+                (ADJP (JJ 平等)))
+              (NP (NN 协议)))))))
+    (PU ，)
+    (IP
+      (VP (VV 铸就)
+        (NP
+          (DNP
+            (NP
+              (NP (NR 美国))
+              (ADJP (JJ 现))
+              (NP (NN 政府)))
+            (DEG 的))
+          (NP (PU “) (NN 辉煌) (NN 大业) (PU ”)))))
+    (PU 。)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, 寄-3)
+nsubj(寄-3, 美方-1)
+advmod(寄-3, 显然-2)
+conj(寄-3, 希望-4)
+case(贸易-7, 于-5)
+compound:nn(贸易-7, 人类-6)
+nmod:prep(有-10, 贸易-7)
+advmod(有-10, 史上-8)
+advmod(有-10, 从未-9)
+dep(战-15, 有-10)
+aux:asp(有-10, 过-11)
+mark(有-10, 的-12)
+amod(战-15, 凶猛-13)
+compound:nn(战-15, 关税-14)
+nsubj(摧毁-18, 战-15)
+aux:modal(摧毁-18, 可以-16)
+advmod(摧毁-18, 一举-17)
+ccomp(希望-4, 摧毁-18)
+nmod:assmod(意志-21, 中国-19)
+case(中国-19, 的-20)
+dobj(摧毁-18, 意志-21)
+punct(摧毁-18, ，-22)
+case(时间-25, 以-23)
+amod(时间-25, 短-24)
+nmod(损失-28, 时间-25)
+case(时间-25, 内-26)
+case(时间-25, 的-27)
+nsubj(换取-29, 损失-28)
+conj(摧毁-18, 换取-29)
+dobj(换取-29, 中国-30)
+ccomp(换取-29, 接受-31)
+neg(平等-33, 不-32)
+amod(协议-34, 平等-33)
+dobj(接受-31, 协议-34)
+punct(寄-3, ，-35)
+conj(寄-3, 铸就-36)
+nmod(政府-39, 美国-37)
+amod(政府-39, 现-38)
+nmod:assmod(大业-43, 政府-39)
+case(政府-39, 的-40)
+punct(大业-43, “-41)
+compound:nn(大业-43, 辉煌-42)
+dobj(铸就-36, 大业-43)
+punct(大业-43, ”-44)
+punct(寄-3, 。-45)
+
+Extracted the following NER entity mentions:
+中国	COUNTRY
+中国	COUNTRY
+美国	COUNTRY
+
+Sentence #8 (6 tokens):
+美国的做法是赌博。
+
+Tokens:
+[Text=美国 CharacterOffsetBegin=336 CharacterOffsetEnd=338 PartOfSpeech=NR Lemma=美国 NamedEntityTag=COUNTRY]
+[Text=的 CharacterOffsetBegin=338 CharacterOffsetEnd=339 PartOfSpeech=DEG Lemma=的 NamedEntityTag=O]
+[Text=做法 CharacterOffsetBegin=339 CharacterOffsetEnd=341 PartOfSpeech=NN Lemma=做法 NamedEntityTag=O]
+[Text=是 CharacterOffsetBegin=341 CharacterOffsetEnd=342 PartOfSpeech=VC Lemma=是 NamedEntityTag=O]
+[Text=赌博 CharacterOffsetBegin=342 CharacterOffsetEnd=344 PartOfSpeech=NN Lemma=赌博 NamedEntityTag=O]
+[Text=。 CharacterOffsetBegin=344 CharacterOffsetEnd=345 PartOfSpeech=PU Lemma=。 NamedEntityTag=O]
+
+Constituency parse: 
+(ROOT
+  (IP
+    (NP
+      (DNP
+        (NP (NR 美国))
+        (DEG 的))
+      (NP (NN 做法)))
+    (VP (VC 是)
+      (NP (NN 赌博)))
+    (PU 。)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, 赌博-5)
+nmod:assmod(做法-3, 美国-1)
+case(美国-1, 的-2)
+nsubj(赌博-5, 做法-3)
+cop(赌博-5, 是-4)
+punct(赌博-5, 。-6)
+
+Extracted the following NER entity mentions:
+美国	COUNTRY
+
+Sentence #9 (28 tokens):
+美方不断发声，一个动作接一个动作，表现出的其实是他们急切希望这一切迅速生效的焦虑。
+
+Tokens:
+[Text=美方 CharacterOffsetBegin=345 CharacterOffsetEnd=347 PartOfSpeech=NN Lemma=美方 NamedEntityTag=O]
+[Text=不断 CharacterOffsetBegin=347 CharacterOffsetEnd=349 PartOfSpeech=AD Lemma=不断 NamedEntityTag=O]
+[Text=发声 CharacterOffsetBegin=349 CharacterOffsetEnd=351 PartOfSpeech=VV Lemma=发声 NamedEntityTag=O]
+[Text=， CharacterOffsetBegin=351 CharacterOffsetEnd=352 PartOfSpeech=PU Lemma=， NamedEntityTag=O]
+[Text=一 CharacterOffsetBegin=352 CharacterOffsetEnd=353 PartOfSpeech=CD Lemma=一 NamedEntityTag=NUMBER NormalizedNamedEntityTag=1]
+[Text=个 CharacterOffsetBegin=353 CharacterOffsetEnd=354 PartOfSpeech=M Lemma=个 NamedEntityTag=O]
+[Text=动作 CharacterOffsetBegin=354 CharacterOffsetEnd=356 PartOfSpeech=NN Lemma=动作 NamedEntityTag=O]
+[Text=接 CharacterOffsetBegin=356 CharacterOffsetEnd=357 PartOfSpeech=VV Lemma=接 NamedEntityTag=O]
+[Text=一 CharacterOffsetBegin=357 CharacterOffsetEnd=358 PartOfSpeech=CD Lemma=一 NamedEntityTag=NUMBER NormalizedNamedEntityTag=1]
+[Text=个 CharacterOffsetBegin=358 CharacterOffsetEnd=359 PartOfSpeech=M Lemma=个 NamedEntityTag=O]
+[Text=动作 CharacterOffsetBegin=359 CharacterOffsetEnd=361 PartOfSpeech=NN Lemma=动作 NamedEntityTag=O]
+[Text=， CharacterOffsetBegin=361 CharacterOffsetEnd=362 PartOfSpeech=PU Lemma=， NamedEntityTag=O]
+[Text=表现 CharacterOffsetBegin=362 CharacterOffsetEnd=364 PartOfSpeech=VV Lemma=表现 NamedEntityTag=O]
+[Text=出 CharacterOffsetBegin=364 CharacterOffsetEnd=365 PartOfSpeech=VV Lemma=出 NamedEntityTag=O]
+[Text=的 CharacterOffsetBegin=365 CharacterOffsetEnd=366 PartOfSpeech=DEC Lemma=的 NamedEntityTag=O]
+[Text=其实 CharacterOffsetBegin=366 CharacterOffsetEnd=368 PartOfSpeech=AD Lemma=其实 NamedEntityTag=O]
+[Text=是 CharacterOffsetBegin=368 CharacterOffsetEnd=369 PartOfSpeech=VC Lemma=是 NamedEntityTag=O]
+[Text=他们 CharacterOffsetBegin=369 CharacterOffsetEnd=371 PartOfSpeech=PN Lemma=他们 NamedEntityTag=O]
+[Text=急切 CharacterOffsetBegin=371 CharacterOffsetEnd=373 PartOfSpeech=AD Lemma=急切 NamedEntityTag=O]
+[Text=希望 CharacterOffsetBegin=373 CharacterOffsetEnd=375 PartOfSpeech=VV Lemma=希望 NamedEntityTag=O]
+[Text=这 CharacterOffsetBegin=375 CharacterOffsetEnd=376 PartOfSpeech=DT Lemma=这 NamedEntityTag=O]
+[Text=一 CharacterOffsetBegin=376 CharacterOffsetEnd=377 PartOfSpeech=CD Lemma=一 NamedEntityTag=NUMBER NormalizedNamedEntityTag=1]
+[Text=切 CharacterOffsetBegin=377 CharacterOffsetEnd=378 PartOfSpeech=NN Lemma=切 NamedEntityTag=O]
+[Text=迅速 CharacterOffsetBegin=378 CharacterOffsetEnd=380 PartOfSpeech=AD Lemma=迅速 NamedEntityTag=O]
+[Text=生效 CharacterOffsetBegin=380 CharacterOffsetEnd=382 PartOfSpeech=VV Lemma=生效 NamedEntityTag=O]
+[Text=的 CharacterOffsetBegin=382 CharacterOffsetEnd=383 PartOfSpeech=DEC Lemma=的 NamedEntityTag=O]
+[Text=焦虑 CharacterOffsetBegin=383 CharacterOffsetEnd=385 PartOfSpeech=NN Lemma=焦虑 NamedEntityTag=O]
+[Text=。 CharacterOffsetBegin=385 CharacterOffsetEnd=386 PartOfSpeech=PU Lemma=。 NamedEntityTag=O]
+
+Constituency parse: 
+(ROOT
+  (IP
+    (IP
+      (NP (NN 美方))
+      (VP
+        (ADVP (AD 不断))
+        (VP (VV 发声))))
+    (PU ，)
+    (IP
+      (NP
+        (QP (CD 一)
+          (CLP (M 个)))
+        (NP (NN 动作)))
+      (VP (VV 接)
+        (NP
+          (QP (CD 一)
+            (CLP (M 个)))
+          (NP (NN 动作)))))
+    (PU ，)
+    (IP
+      (NP
+        (CP
+          (IP
+            (VP
+              (VRD (VV 表现) (VV 出))))
+          (DEC 的)))
+      (VP
+        (ADVP (AD 其实))
+        (VP (VC 是)
+          (IP
+            (NP (PN 他们))
+            (VP
+              (ADVP (AD 急切))
+              (VP (VV 希望)
+                (NP
+                  (CP
+                    (IP
+                      (NP
+                        (DP (DT 这)
+                          (QP (CD 一)))
+                        (NP (NN 切)))
+                      (VP
+                        (ADVP (AD 迅速))
+                        (VP (VV 生效))))
+                    (DEC 的))
+                  (NP (NN 焦虑)))))))))
+    (PU 。)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, 发声-3)
+nsubj(发声-3, 美方-1)
+advmod(发声-3, 不断-2)
+punct(发声-3, ，-4)
+nummod(动作-7, 一-5)
+mark:clf(一-5, 个-6)
+nsubj(接-8, 动作-7)
+conj(发声-3, 接-8)
+nummod(动作-11, 一-9)
+mark:clf(一-9, 个-10)
+dobj(接-8, 动作-11)
+punct(接-8, ，-12)
+nsubj(希望-20, 表现-13)
+advmod:rcomp(表现-13, 出-14)
+mark(表现-13, 的-15)
+advmod(希望-20, 其实-16)
+cop(希望-20, 是-17)
+nsubj(希望-20, 他们-18)
+advmod(希望-20, 急切-19)
+conj(接-8, 希望-20)
+det(切-23, 这-21)
+dep(这-21, 一-22)
+nsubj(生效-25, 切-23)
+advmod(生效-25, 迅速-24)
+acl(焦虑-27, 生效-25)
+mark(生效-25, 的-26)
+dobj(希望-20, 焦虑-27)
+punct(发声-3, 。-28)
+
+Extracted the following NER entity mentions:
+一	NUMBER
+一	NUMBER
+一	NUMBER
+
+Coreference set:
+	(4,1,[1,2]) -> (2,12,[12,13]), that is: "美方" -> "美方"
+	(5,27,[27,28]) -> (2,12,[12,13]), that is: "对方" -> "美方"
+	(6,1,[1,2]) -> (2,12,[12,13]), that is: "美方" -> "美方"
+	(7,1,[1,2]) -> (2,12,[12,13]), that is: "美方" -> "美方"
+	(9,1,[1,2]) -> (2,12,[12,13]), that is: "美方" -> "美方"
+
+Coreference set:
+	(2,5,[5,6]) -> (1,25,[25,26]), that is: "中国" -> "中国"
+	(4,20,[20,21]) -> (1,25,[25,26]), that is: "中国" -> "中国"
+	(7,19,[19,20]) -> (1,25,[25,26]), that is: "中国" -> "中国"
+	(7,30,[30,31]) -> (1,25,[25,26]), that is: "中国" -> "中国"
+
+Coreference set:
+	(6,17,[17,18]) -> (1,1,[1,2]), that is: "美国" -> "美国"
+	(7,37,[37,38]) -> (1,1,[1,2]), that is: "美国" -> "美国"
+	(8,1,[1,2]) -> (1,1,[1,2]), that is: "美国" -> "美国"
+
+Coreference set:
+	(4,14,[14,15]) -> (3,3,[2,4]), that is: "它" -> "中 美"
+
+Coreference set:
+	(9,18,[18,19]) -> (7,4,[4,5]), that is: "他们" -> "希望"
+
+Extracted quotes: 
+[QuotationIndex=0, CharacterOffsetBegin=113, Text=“目前还没有这方面的安排。”, Speaker=特朗普发]
+[QuotationIndex=1, CharacterOffsetBegin=329, Text=“辉煌大业”, Speaker=特朗普发]
