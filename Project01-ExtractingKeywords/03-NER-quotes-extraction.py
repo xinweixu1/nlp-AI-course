@@ -26,21 +26,37 @@
 #print('Tokenize:', nlp.word_tokenize(text))
 #print('Part of Speech:', nlp.pos_tag(text))
 
+
+# for chinese text:
+#from stanfordcorenlp import StanfordCoreNLP
+
+#sentence = '清华大学位于北京。'
+
+#with StanfordCoreNLP(r'/Users/xinweixu/stanford-corenlp-full-2018-10-05', lang='zh') as nlp:
+#    print(nlp.word_tokenize(sentence))
+#    print(nlp.pos_tag(sentence))
+#    print(nlp.ner(sentence))
+#    print(nlp.parse(sentence))
+#    print(nlp.dependency_parse(sentence))
+
+
 #nlp.close()
 
+
+
 #############
-# Attempt 2 - using the 'stanford-corenlp' wrapper developed by stanfordnlp
+# Attempt 2 - using the 'stanford-corenlp' wrapper developed by stanfordnlp -- failed!
 # github page: https://github.com/stanfordnlp/python-stanford-corenlp
 
 # set the $CORENLP_HOME variable before calling the NLP client
-import os
-os.environ["CORENLP_HOME"]='/Users/xinweixu/stanford-corenlp-full-2018-10-05'
+#import os
+#os.environ["CORENLP_HOME"]='/Users/xinweixu/stanford-corenlp-full-2018-10-05'
 
-text = 'Mary has a little lamb.'
+#text = 'Mary has a little lamb.'
 
-import corenlp
-with corenlp.CoreNLPClient(annotators=['tokenize','pos','ner','depparse'], be_quiet=False) as client:
-    text_annotated = client.annotate(text)
+#import corenlp
+#with corenlp.CoreNLPClient(annotators=['tokenize','pos','ner','depparse'], be_quiet=False) as client:
+#    text_annotated = client.annotate(text)
 
 # report error:
 # corenlp.client.PermanentlyFailedException: Timed out waiting for service to come alive.
