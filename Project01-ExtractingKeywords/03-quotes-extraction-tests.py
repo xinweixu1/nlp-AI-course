@@ -1,7 +1,7 @@
 # project: extracting speech from the chinese news corpus
 # author: github.com/xinweixu1
 # date created:  May 11, 2019
-# last updated:  May 12, 2019
+# last updated:  May 24, 2019
 
 # Step 1 - try the 'quote' annotator from the stanford-corenlp on a snippet of news article
 
@@ -13,8 +13,9 @@
 # $ sudo python script.py
 
 #import logging # for debugging stanford-corenlp
+
 #from stanfordcorenlp import StanfordCoreNLP
-#nlp = StanfordCoreNLP(r'/Users/xinweixu/stanford-corenlp-full-2018-10-05', quiet=False, logging_level=logging.DEBUG)
+#nlp = StanfordCoreNLP(r'/Users/xinweixu/stanford-corenlp-full-2018-10-05', quiet=False)
 
 # report error:
 # socket.gaierror: [Errno 8] nodename nor servname provided, or not known
@@ -52,15 +53,16 @@
 #import os
 #os.environ["CORENLP_HOME"]='/Users/xinweixu/stanford-corenlp-full-2018-10-05'
 
-#text = 'Mary has a little lamb.'
+text = 'Mary has a little lamb.'
 
-#import corenlp
-#with corenlp.CoreNLPClient(annotators=['tokenize','pos','ner','depparse'], be_quiet=False) as client:
-#    text_annotated = client.annotate(text)
+import corenlp
+with corenlp.CoreNLPClient(annotators=['tokenize','pos','ner','depparse'], be_quiet=False) as client:
+    text_annotated = client.annotate(text)
 
 # report error:
 # corenlp.client.PermanentlyFailedException: Timed out waiting for service to come alive.
 
+print(text_annotated)
 
 ########
 # Final Solution!
@@ -71,3 +73,6 @@
 #      -file /path/to/input/file.txt
 #      -outputFormat text (or json, xml)
 #      -outputDirectory /path/to/output/dir
+
+###########
+
