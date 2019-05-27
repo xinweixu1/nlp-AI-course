@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d83642ba-3ea0-458a-8a1f-6e9ae4c1130c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/03c-quote-extraction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stanford-nlp-chinese-properties.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03d-quote-extraction-test4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-NER-quotes-extraction.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_chinese_news.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test_chinese_news.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/03b-quote-extraction-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-quotes-extraction-tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03b-quote-extraction.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03c-quote-extraction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saying_verbs_cleaned.txt" beforeDir="false" afterPath="$PROJECT_DIR$/saying_verbs_cleaned.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,15 +17,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/03c-quote-extraction.py">
+        <entry file="file://$PROJECT_DIR$/03d-quote-extraction-test4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
-              <folding>
-                <element signature="e#237#247#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="342">
+              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -47,14 +46,15 @@
         <option value="$APPLICATION_CONFIG_DIR$/pycharm.vmoptions" />
         <option value="$PROJECT_DIR$/stanford-nlp-chinese-properties.py" />
         <option value="$PROJECT_DIR$/03c-quote-extraction.py" />
+        <option value="$PROJECT_DIR$/03d-quote-extraction-test4.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="1920" />
-    <option name="y" value="54" />
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="180" />
+    <option name="y" value="132" />
+    <option name="width" value="1080" />
+    <option name="height" value="659" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -96,7 +96,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.03c-quote-extraction">
+  <component name="RunManager" selected="Python.03d-quote-extraction-test4">
     <configuration name="03-NER-quotes-extraction" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Project01-ExtractingKeywords" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -139,8 +139,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="03d-quote-extraction-test4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Project01-ExtractingKeywords" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03d-quote-extraction-test4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.03d-quote-extraction-test4" />
         <item itemvalue="Python.03c-quote-extraction" />
         <item itemvalue="Python.03-NER-quotes-extraction" />
       </list>
@@ -169,15 +191,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="54" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="872" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24927954" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26224783" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38840938" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40998685" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -209,13 +231,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03c-quote-extraction.py">
+    <entry file="file://$PROJECT_DIR$/03-quotes-extraction-tests.py" />
+    <entry file="file://$PROJECT_DIR$/03c-quote-extraction.py" />
+    <entry file="file://$PROJECT_DIR$/03c-quote-extraction-test3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
-          <folding>
-            <element signature="e#237#247#0" expanded="true" />
-          </folding>
+        <state>
+          <caret selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03d-quote-extraction-test4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
         </state>
       </provider>
     </entry>
