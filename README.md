@@ -77,3 +77,31 @@ See Gao's solutions [here](https://github.com/Artificial-Intelligence-for-NLP-an
    - boolean search
    - from the naive search (TF-IDF) to page rank
 + [ ] Group project 01 - keywords extraction & search using the news corpus
+
+### Week 8 - 10
++ Basic ML Methods
+  - Supervised learning:
+      + linear & logistic regressions (gradient descent, MSE, loss function, cross-entropy)
+      + KNN
+      + SVM (kernel function, support vector)
+      + Naïve Bayesian Classfier
+      + Decision Tree
+      + Random Forest (XGBoost)
+  - Unsupervised learning:
+      + Clustering (hierarchical, k-means)
+      + Embedding cluster
+  - Semi-supervised & active learning
++ Model evaluation:
+  - Underfitting vs. Overfitting
+  - precision, recall, F1, F2, MSE, loss function
+  - bias & variance
++ Preprocessing data:
+  - balance, noise, colinearity, normalization/rescaling
+
+### Week 11 - 12
++ Neural Networks
+  - the rise of NN
+  - architecture of NN (layers, activation fucntion, back propagation)
+  - loss function, cross-entropy, (stochastic) gradient descent
+  - implementing a simple NN
+  - tensorflow, keras, pytorch
